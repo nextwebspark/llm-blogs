@@ -22,10 +22,10 @@ def get_completion(prompt, model=llm_model):
 
 
 # Initialize Streamlit UI
-st.title("Chatbot Prototype")
+st.title("AI Text Summarizer")
 
 # Display a text input box for user query
-user_input = st.text_input("Ask me anything:")
+user_input = st.text_input("Give text to summarize:")
 
 if user_input:
     # Pass the user input to the llm_chain for processing
